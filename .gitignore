@@ -15,10 +15,21 @@
 *.nav
 *.out
 *.pdf
-!slika.pdf
-*.pyc
 *.snm
 *.synctex.gz
+*.synctex(busy)
+!slika.pdf
+!urnik-resitev.pdf
+!urnik.pdf
+!magic-resitev.pdf
+!magic.pdf
+!matematika-resitev.pdf
+!matematika.pdf
+!prosojnice-resitev.pdf
+!prosojnice.pdf
+
+# Arhivi, iz katerih smo datoteke že odpakirali
+*.zip
 
 # MacOS
 __MACOSX
@@ -29,3 +40,4 @@ thumbs.db
 
 # Python
 __pycache__
+*.pyc
